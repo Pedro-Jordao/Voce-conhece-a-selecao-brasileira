@@ -35,7 +35,7 @@ src/ ├── app/ │ ├── components/ │ │ ├── quizz/ │ │ �
 ## 🛠️ Instalação e execução
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Pedro-Jordao/Voce-conhece-a-selecao-brasileira.git
    cd seu-repositorio
 Instale as dependências:
 npm install
