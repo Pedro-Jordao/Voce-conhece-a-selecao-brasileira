@@ -1,27 +1,52 @@
-# ProjetoBuzzfeedAngular
+# Buzzfeed Quiz Clone - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+![Angular](https://img.shields.io/badge/Angular-14-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-16.20.2-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-## Development server
+Este projeto é um clone simples de quiz no estilo Buzzfeed, desenvolvido durante o **Bootcamp Decola Tech 2025 - Avanade**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📋 Sobre o projeto
 
-## Code scaffolding
+O objetivo é criar um quiz interativo de múltipla escolha utilizando **Angular 14**, com base em perguntas e respostas dinâmicas carregadas de um arquivo JSON. Ao final do quiz, uma resposta personalizada é exibida de acordo com a performance do usuário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Tecnologias e ferramentas
 
-## Build
+- [Angular 14](https://angular.io/)
+- [Node.js v16.20.2](https://nodejs.org/)
+- TypeScript
+- Just Color Picker (ferramenta auxiliar de design)
+- HTML e CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Estrutura do projeto
 
-## Running unit tests
+src/ ├── app/ │ ├── components/ │ │ ├── quizz/ │ │ │ ├── quizz.component.ts │ │ │ ├── quizz.component.html │ │ │ ├── quizz.component.css │ ├── pages/ │ │ ├── home/ │ │ │ ├── home.component.ts │ │ │ ├── home.component.html │ │ │ ├── home.component.css │ ├── app-routing.module.ts │ ├── app.module.ts │ ├── app.component.ts │ ├── app.component.html │ ├── app.component.css ├── assets/ │ ├── data/ │ │ ├── quizz_questions.json │ ├── imgs/ │ │ ├── logo.png
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## 🧠 Funcionalidades
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Carregamento dinâmico de perguntas e respostas.
+- Registro das respostas do usuário.
+- Avaliação automática do desempenho.
+- Três resultados possíveis:
+  - `A` – Você não sabe nada sobre a seleção.
+  - `B` – Tá sabendo, mas dá para melhorar.
+  - `C` – Você sabe tudo sobre a seleção.
 
-## Further help
+## 🛠️ Instalação e execução
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+Instale as dependências:
+npm install
+Rode o projeto:
+
+ng serve
+Acesse no navegador:
+http://localhost:4200
+
+ Autor
+Desenvolvido por Pedro Jordão
+Para o Bootcamp Decola Tech 2025 - Avanade
+
+📧 Contato: phjordao2522@gmail.com
