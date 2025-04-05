@@ -1,0 +1,60 @@
+{
+  "title": "O quanto você conhece a seleção brasileira de futebol?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quem detém o recorde de maior número de gols marcados pela seleção brasileira masculina em partidas oficiais?",
+      "options": [
+        { "id": 1, "name": "Pelé", "alias": "A" },
+        { "id": 2, "name": "Ronaldo Fenômeno", "alias": "B" },
+        { "id": 3, "name": "Neymar", "alias": "C" }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 2,
+      "question": "Em quais anos a seleção brasileira feminina conquistou a medalha de prata nos Jogos Olímpicos?",
+      "options": [
+        { "id": 1, "name": "2000, 2004 e 2020", "alias": "A" },
+        { "id": 2, "name": "2004, 2008 e 2024", "alias": "C" },
+        { "id": 3, "name": "2000, 2012 e 2020", "alias": "B" }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "question": "Qual clube formou o maior número de jogadores convocados para a seleção brasileira masculina na Copa do Mundo de 2022?",
+      "options": [
+        { "id": 1, "name": "São Paulo", "alias": "C" },
+        { "id": 2, "name": "Flamengo", "alias": "A" },
+        { "id": 3, "name": "Palmeiras", "alias": "B" }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "question": "Qual dessas jogadoras, ícone da seleção brasileira feminina, teve passagem pelo Corinthians?",
+      "options": [
+        { "id": 1, "name": "Marta", "alias": "A" },
+        { "id": 2, "name": "Formiga", "alias": "B" },
+        { "id": 3, "name": "Cristiane", "alias": "C" }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "question": "Quantos títulos da Copa do Mundo FIFA a seleção brasileira masculina possui?",
+      "options": [
+        { "id": 1, "name": "4", "alias": "A" },
+        { "id": 2, "name": "5", "alias": "C" },
+        { "id": 3, "name": "6", "alias": "B" }
+      ],
+      "correct": "C"
+    }
+  ],
+  "results": {
+    "A": "Você não sabe nada sobre a seleção",
+    "B": "Tá sabendo, mas dá para melhorar",
+    "C": "Você sabe tudo sobre a seleção"
+  }
+}
